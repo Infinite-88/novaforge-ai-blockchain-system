@@ -1,0 +1,56 @@
+{
+  "name": "novaforge-ai-blockchain-system",
+  "version": "1.0.0",
+  "description": "Complete autonomous AI empire with blockchain infrastructure and token creation",
+  "main": "core/index.js",
+  "scripts": {
+    "start": "node core/index.js",
+    "dev": "nodemon core/index.js",
+    "test": "jest",
+    "build": "webpack --mode production",
+    "deploy": "node deployment/deploy.js",
+    "ai-empire": "node ai-empire/orchestrator.js",
+    "blockchain": "node blockchain/nova-chain.js",
+    "revenue": "node revenue/automation.js"
+  },
+  "keywords": [
+    "ai",
+    "blockchain",
+    "token-creator",
+    "autonomous",
+    "novaforge",
+    "revenue-automation",
+    "self-healing",
+    "orchestrator",
+    "overseers"
+  ],
+  "author": "Infinite-88",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "web3": "^4.0.0",
+    "ethers": "^6.0.0",
+    "@cosmjs/stargate": "^0.32.0",
+    "axios": "^1.4.0",
+    "ws": "^8.13.0",
+    "node-cron": "^3.0.2",
+    "winston": "^3.9.0",
+    "dotenv": "^16.1.4",
+    "mongoose": "^7.3.0",
+    "redis": "^4.6.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22",
+    "webpack": "^5.88.0",
+    "eslint": "^8.43.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Infinite-88/novaforge-ai-blockchain-system.git"
+  }
+}
